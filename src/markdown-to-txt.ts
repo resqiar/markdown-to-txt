@@ -1,4 +1,4 @@
-import marked, { MarkedOptions, Renderer } from "marked";
+import { marked, Renderer } from "marked";
 import { escape, unescape } from "lodash";
 
 const block = (text: string) => text + "\n\n";
@@ -48,14 +48,15 @@ const TxtRenderer: Renderer = {
  * @param options  the marked options
  * @returns the unmarked text
  */
-export function markdownToTxt(
+export default function markdownToTxt(
 	markdown: string,
-	options?: MarkedOptions
+	options?: marked.MarkedOptions
 ): string {
-	const unmarked = marked(markdown, { ...options, renderer: TxtRenderer });
+	const unmarked = marked.parse(markdown, {
+		...options,
+		renderer: TxtRenderer,
+	});
 	const unescaped = unescape(unmarked);
 	const trimmed = unescaped.trim();
 	return trimmed;
 }
-
-export default markdownToTxt;

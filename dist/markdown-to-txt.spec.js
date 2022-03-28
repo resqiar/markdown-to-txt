@@ -4,7 +4,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const markdown_to_txt_1 = __importDefault(require("./markdown-to-txt"));
-// Test cases derived from https://guides.github.com/features/mastering-markdown/
 test("Headers", () => {
     const original = `
 # This is an \`<h1>\` tag
