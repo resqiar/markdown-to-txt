@@ -601,10 +601,10 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.180.tgz#4ab7c9ddfc92ec4a887886483bc14c79fb380670"
   integrity sha512-XOKXa1KIxtNXgASAnwj7cnttJxS4fksBRywK/9LzRV5YxrF80BXZIGeQSuoESQ/VkUj30Ae0+YcuHc15wJCB2g==
 
-"@types/marked@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-3.0.2.tgz#4a639575542ae7715fabbe450b08118e9093eb35"
-  integrity sha512-mGYI9qFs+i5eYaytWKBbtEMbIkrXGKuhsDpDcj70ogKS2gk1NmgEy9Z3VEKz922Lfms6eITXXqv5idlX7C/irw==
+"@types/marked@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/marked/-/marked-4.0.3.tgz#2098f4a77adaba9ce881c9e0b6baf29116e5acc4"
+  integrity sha512-HnMWQkLJEf/PnxZIfbm0yGJRRZYYMhb++O9M36UCTA9z53uPvVoSlAwJr3XOpDEryb7Hwl1qAx/MV6YIW1RXxg==
 
 "@types/node@*":
   version "17.0.23"
@@ -1940,10 +1940,10 @@ makeerror@1.0.12:
   dependencies:
     tmpl "1.0.5"
 
-marked@4.0.10:
-  version "4.0.10"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.10.tgz#423e295385cc0c3a70fa495e0df68b007b879423"
-  integrity sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw==
+marked@4.0.12:
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.12.tgz#2262a4e6fd1afd2f13557726238b69a48b982f7d"
+  integrity sha512-hgibXWrEDNBWgGiK18j/4lkS6ihTe9sxtV4Q1OQppb/0zzyPSzoFANBa5MfsG/zgsWklmNnhm0XACZOH/0HBiQ==
 
 merge-stream@^2.0.0:
   version "2.0.0"
